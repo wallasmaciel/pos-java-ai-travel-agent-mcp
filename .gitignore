@@ -1,0 +1,36 @@
+# Maven and Quarkus
+**/target/
+**/.quarkus/
+
+# IDEs
+**/.idea/
+**/.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+**/.settings/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/.certs/
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Maven release files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+.flattened-pom.xml
+
+# Patch leftovers
+*.orig
+*.rej
